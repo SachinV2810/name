@@ -6,7 +6,7 @@ loginForm.addEventListener("submit", (e) => {
   let password = document.getElementById("inputPassword6");
 
   if ( password.value == "sachin@1234") {
-    location.href="index.html";
+    location.href="index2.html";
   } else {
     alert("wrong password");
     location.reload();
